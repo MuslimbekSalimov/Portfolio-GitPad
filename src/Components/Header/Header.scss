@@ -1,0 +1,51 @@
+.header {
+    padding-top: 10px;
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+        gap: 33px;
+    }
+
+    .link {
+        text-decoration: none;
+        list-style-type: none;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #12100CB2;
+
+        &:hover {
+            &:hover {
+                color: #000000;
+                font-weight: 600;
+                transition: all 0.2s ease-in-out;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            }
+        }
+    }
+}
+
+button {
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+    padding: 12px 28px;
+    border-radius: 12px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .header {
+        .list {
+            display: none;
+        }
+    }
+  }

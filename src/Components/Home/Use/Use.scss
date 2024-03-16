@@ -1,0 +1,134 @@
+.use {
+    padding-top: 179px;
+    text-align: center;
+
+    &__heading {
+        font-family: "Roboto";
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 64px;
+        color: #12100C;
+        // width: 336px;
+    }
+
+    &__list {
+        display: flex;
+        // align-items: center;
+        gap: 24px;
+        overflow: auto;
+    }
+    &__list::-webkit-scrollbar{
+        display: none;
+      }
+
+    &__item {
+        // width: 384px;
+        // height: 100%;
+        background-color: #FFF;
+        padding-left: 24px;
+        padding-top: 24px;
+        border-radius: 12px;
+        text-align: start;
+        padding-top: -10px;
+    }
+
+    .div__img {
+        display: flex;
+        align-items: center;
+        // gap: 23px;
+        justify-content: space-between;
+    }
+
+    .use__list--heading {
+        width: 336px;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #12100C;
+        padding-top: -10px;
+
+    }
+
+    .use__list--text {
+        max-width: 336px;
+        width: 100%;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #12100C;    
+    }
+
+    .use__elements--heading {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #12100C;
+    }
+
+    .use__elements--text {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #12100C;
+    }
+
+    .use__elements--span {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #12100C;
+    }
+
+    .use__div {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .brends {
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .img__div {
+        display: flex;
+        align-items: center;
+        gap: 53px;
+    }
+
+    // picture {
+    //     display: grid;
+    //     grid-template-columns: repeat(7, 1fr);
+    //     gap: 23px;
+    // }
+}
+
+@media only screen and (max-width: 845px) {
+    .use {
+        .use__list {
+            max-width: 400px;
+            width: 100%;
+        }
+
+    }
+    .div__img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brends__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img__div {
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+    }
+  }

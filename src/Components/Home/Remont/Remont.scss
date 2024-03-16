@@ -1,0 +1,42 @@
+.remont {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    align-content: center;
+    padding-top: 177px;
+
+    &__heading {
+        // max-width: 775px;
+        width: 100%;
+        font-family: "Roboto";
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 72px;
+        color: #12100C; 
+    }
+
+    &__text {
+        // max-width: 877px;
+        // width: 100%;
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #12100CB2;
+    }
+
+    &__button--div {
+        // display: flex;
+        // align-items: center;
+        gap: 16px;
+    }
+
+    &__button1 {
+        border: 2px solid #000;
+    }
+
+    &__button2 {
+        border: 2px solid #000;
+        margin-left: 16px;
+    }
+}

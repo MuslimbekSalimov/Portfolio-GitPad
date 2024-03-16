@@ -1,0 +1,71 @@
+.hero {
+    padding-top: 32px;
+
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__heading {
+        font-family: "Roboto";
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 88px;
+        color: #12100C; 
+    }
+
+    &__text {
+        width: 460px;
+        font-family: "Roboto";
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #12100CB2;
+    }
+
+    .hero__button--div {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+
+    .hero__button--try {
+        width: 160px;
+        height: 46px;
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        color: #000;
+        background-color: #FFAE33;
+        border-radius: 12px;
+        padding-top: 13px;
+        text-align: center;
+    }
+
+    .hero__button--open {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #12100CB2;
+    }
+
+    .apps__div {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hero {
+        .hero__info {
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+  }

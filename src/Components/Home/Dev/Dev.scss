@@ -1,0 +1,65 @@
+.dev {
+    padding-top: 158px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 55px;
+    }
+
+    &__heading {
+        font-family: "Roboto";
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        color: #12100C; 
+    }
+
+    &__text {
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #12100CB2;
+        max-width: 655px;
+        width: 100%;
+    }
+
+    &__button1 {
+        background-color: #FFAE33;
+
+        // Text 
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        color: #12100C;
+    }
+
+    &__button2 {
+        background-color: #FFB0AE;
+
+        // Text 
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        color: #12100C;
+    }
+
+    .dev__buttons {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+}
+
+@media only screen and (max-width: 1095px) {
+    .dev {
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+  }

@@ -1,0 +1,28 @@
+.select {
+    padding-top: 170px;
+    text-align: center;
+    animation: select 0.5s ease-in-out;
+
+    @keyframes select {
+        from {
+            transform: translateY(50%);
+        }
+    }
+
+    &__heading {
+        font-family: "Roboto";
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 64px;
+        color: #12100C;
+    }
+
+    &__h3 {
+        font-family: "Roboto";
+        font-size: 54px;
+        font-weight: 400;
+        line-height: 64px;
+        color: #999795;
+        text-decoration:line-through;
+    }
+}
